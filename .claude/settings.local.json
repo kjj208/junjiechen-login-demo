@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open:*)",
+      "WebSearch",
+      "Bash(cat:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(npx chrome-devtools-mcp@latest navigate:*)",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__list_pages",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__navigate_page",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__take_snapshot",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__take_screenshot",
+      "mcp__neon__list_projects",
+      "mcp__neon__list_docs_resources",
+      "mcp__neon__get_doc_resource",
+      "mcp__neon__create_project",
+      "mcp__neon__run_sql",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__new_page",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__select_page",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__fill",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__click",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__wait_for",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__list_console_messages",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__get_console_message"
+    ]
+  }
+}
